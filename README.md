@@ -2,11 +2,11 @@
 
 Exercice réalisé dans le cadre de la semaine Rails (THP), par notre belle équipe :
 
-    Ysaline Macé
-    Nikita Vasilev
-    Arthur Mansuy
-    Thomas Charvet
-    Nathaniel Debache.
+*Ysaline Macé
+*Nikita Vasilev
+*Arthur Mansuy
+*Thomas Charvet
+*Nathaniel Debache
 
 Database
 
