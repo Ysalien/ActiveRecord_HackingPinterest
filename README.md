@@ -9,7 +9,7 @@ Exercice réalisé dans le cadre de la semaine Rails (THP), par notre belle équ
 
 ## Database
 
-HackingPinterest est une base de données, réalisée à partir de rails, dans laquelle les utilisateurs (définis par un firstname, un lastname et un email) peuvent créer des pins. Ces pins contiennent une url représentant une image. Les pins peuvent être commentés par les utilisateurs. On retrouve ainsi trois models : User (table users), Pin (table pins) et Comment (table comments). L'index dans Pin lie l'url avec l'id d'un user. Et l'index dans Comment se lie avec les id de l'url et de l'user.
+HackingPinterest est une base de données, réalisée à partir de rails, dans laquelle les utilisateurs (définis par un firstname, un lastname et un email) peuvent créer des pins. Ces pins contiennent une url représentant une image. Les pins peuvent être commentés par les utilisateurs. On retrouve ainsi trois models : User (table users), Pin (table pins) et Comment (table comments). L'index dans pins lie l'url avec l'id d'un user. Et l'index dans comments se lie avec les id de l'url et de l'user.
 
 Ces différentes jointures sont effectuées avec le t.belongs_to :nomdetonmodel, index: true dans la table visée et les belongs_to :nomdetonmodel et has_many :nomdetatable dans les models.
 
